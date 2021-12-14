@@ -1,0 +1,35 @@
+{
+    "name": "javascript-skeleton",
+    "version": "1.0.0",
+    "description": "Javascript skeleton to develop apis with express",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node -r dotenv/config src/index.js",
+        "dev": "nodemon -r dotenv/config src/index.js",
+        "lint:src": "eslint --ext .js ./src",
+        "lint:test": "eslint --ext .js ./__tests__",
+        "lint": "npm run lint:src && npm run lint:test",
+        "lint:fix:src": "eslint --ext .js --fix ./src",
+        "lint:fix:test": "eslint --ext .js --fix ./__tests__",
+        "lint:fix": "npm run lint:fix:src && npm run lint:fix:test",
+        "test": "jest --verbose",
+        "test:coverage": "jest --coverage"
+    },
+    "author": "carlos fernandez cabrero",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.5",
+        "@babel/preset-env": "^7.16.5",
+        "@types/jest": "^27.0.3",
+        "babel-jest": "^27.4.5",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "jest": "^27.4.5",
+        "nodemon": "^2.0.14",
+        "prettier": "2.4.1"
+    }
+}
