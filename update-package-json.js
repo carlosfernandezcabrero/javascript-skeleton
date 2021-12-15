@@ -1,4 +1,3 @@
-import { execSync } from "child_process";
 import { writeFileSync } from "fs";
 import { createInterface } from "readline";
 import data from "./package.json";
@@ -18,9 +17,6 @@ const rl = createInterface({
                 "./package.json",
                 `${JSON.stringify(data, null, 4)}\n`
             );
-
-            console.log("\nInstalling NPM modules ...");
-            execSync("npm install");
 
             rl.close();
         });
