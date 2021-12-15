@@ -2,17 +2,30 @@
 
 ## Description
 
-Javascript skeleton for developing Node.js applications with Javascript. The skeleton have integrated EsLint for lint code and Prettier for format code. To configure the environment variables, I installed and integrated DotEnv.
+Javascript skeleton for developing Node.js applications with Javascript. The skeleton have integrated EsLint for lint code and Prettier for format code.
 
 ## Usage
 
+### Configure environment variables
+
+---
+
+1. Create an .env file in th root of the project.
+2. Set the environment variables you need.
+
+**NOTE:** The configured environment variables are loaded automatically when run the dev or start scripts.
+
 ### Lint
+
+---
 
 ``` shell
 npm run lint
 ```
 
 ### Test
+
+---
 
 The test are run with Jest Javascript Testing Framework.
 
@@ -30,11 +43,15 @@ npm run test:coverage
 
 ### Develop
 
+---
+
 ``` shell
 npm run dev
 ```
 
 ### Start the application as in production
+
+---
 
 ``` shell
 npm run start
