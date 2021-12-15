@@ -1,7 +1,7 @@
 {
     "name": "javascript-skeleton",
     "version": "1.0.0",
-    "description": "Javascript skeleton to develop apis with express",
+    "description": "Javascript skeleton for developing Node.js applications with Javascript",
     "main": "src/index.js",
     "scripts": {
         "dev": "babel-node -r dotenv/config src/index.js",
