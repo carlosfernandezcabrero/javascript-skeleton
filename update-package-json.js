@@ -10,8 +10,12 @@ const rl = createInterface({
 (() => {
     rl.question("Project name: ", (project_name) => {
         rl.question("Project description (short): ", (project_description) => {
-            data.name = project_name.trim();
-            data.description = project_description.trim();
+            project_name = project_name.trim();
+            project_description = project_description.trim();
+
+            if (project_name.length > 0) data.name = project_name;
+            if (project_description.length > 0)
+                data.description = project_description;
 
             writeFileSync(
                 "./package.json",
