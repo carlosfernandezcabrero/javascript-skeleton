@@ -49,6 +49,16 @@ npm run test:coverage
 npm run dev
 ```
 
+### Build
+
+---
+
+``` shell
+npm run build
+```
+
+**NOTE:** Babel is used to compile javascript files.
+
 ### Start the application as in production
 
 ---
