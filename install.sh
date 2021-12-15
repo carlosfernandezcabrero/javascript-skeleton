@@ -5,4 +5,5 @@ echo Installing NPM packages ...
 
 npm install
 
-npm run install
+npm run config
+

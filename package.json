@@ -8,7 +8,7 @@
         "dev:watch": "nodemon --exec babel-node -r dotenv/config src/index.js",
         "build": "npx babel ./src/ --out-dir ./dist/",
         "start": "npm run build && node -r dotenv/config dist/index.js",
-        "install": "babel-node update-package-json.js",
+        "config": "babel-node update-package-json.js",
         "lint:src": "eslint --ext .js ./src",
         "lint:test": "eslint --ext .js ./__tests__",
         "lint": "npm run lint:src && npm run lint:test",
