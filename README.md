@@ -6,6 +6,18 @@ Javascript skeleton for developing Node.js applications with Javascript. The ske
 
 ## Usage
 
+### First use
+
+---
+
+Run:
+
+```shell
+./install.sh
+```
+
+This script installs the NPM packages and sets the new project name and description if desired.
+
 ### Configure environment variables
 
 ---
