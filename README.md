@@ -4,6 +4,8 @@
 
 Javascript skeleton for developing Node.js applications with Javascript. The skeleton have integrated EsLint for lint code and Prettier for format code.
 
+**NOTE:** Recommended use [Prettier-standard](https://marketplace.visualstudio.com/items?itemName=numso.prettier-standard-vscode) extension in Visual Studio Code as formatter.
+
 ## Usage
 
 ### First use
