@@ -1,1 +1,7 @@
-console.log("hello worls");
+console.log('hello worls')
+
+function helloWorld (text) {
+  console.log(text)
+}
+
+helloWorld('I am carlos')

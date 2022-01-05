@@ -2,7 +2,6 @@
     "name": "javascript-skeleton",
     "version": "1.0.0",
     "description": "Javascript skeleton for developing Node.js applications with Javascript",
-    "main": "src/index.js",
     "scripts": {
         "dev": "babel-node -r dotenv/config src/index.js",
         "dev:watch": "nodemon --exec babel-node -r dotenv/config src/index.js",
@@ -31,10 +30,11 @@
         "@types/jest": "^27.0.3",
         "babel-jest": "^27.4.5",
         "eslint": "^7.32.0",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
         "jest": "^27.4.5",
-        "nodemon": "^2.0.14",
-        "prettier": "2.4.1"
+        "nodemon": "^2.0.14"
     }
 }
