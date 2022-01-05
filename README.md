@@ -1,4 +1,4 @@
-# Javascript API Skeleton
+# Javascript Skeleton
 
 ## Description
 
